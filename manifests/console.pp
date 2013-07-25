@@ -4,7 +4,7 @@ class hardening::console {
     owner => 'root',
     group => 'root',
     mode => 0400,
-    source => 'puppet:///hardening/securetty',
+    source => 'puppet:///modules/hardening/securetty',
   }
 
 }
